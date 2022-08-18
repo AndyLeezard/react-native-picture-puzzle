@@ -3,6 +3,11 @@
 
 [🎬 **demo**](https://twitter.com/cawfree/status/1350268277143068673)
 
+## Forked by Andy Lee
+- change(s) : press event is now pressIn. (users have tendencies to try to drag the pieces, and Press event won't allow it.)
+- gitignore tailored to be directly used as a custom npm package using git (dist folder)
+- removed example code
+
 <p align="center">
   <img src="./public/logo.png" width="250" height="250"></img>
 </p>
