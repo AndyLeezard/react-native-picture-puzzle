@@ -241,7 +241,7 @@ export default function PicturePuzzle({
                     left={left}
                     right={right}
                   >
-                    <TouchableWithoutFeedback onPress={() => shouldMovePiece(pieceNumber)}>
+                    <TouchableWithoutFeedback onPressIn={() => shouldMovePiece(pieceNumber)}>
                       <Image
                         style={{width: actualSize, height: actualSize}}
                         source={source}
